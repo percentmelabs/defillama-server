@@ -2636,9 +2636,9 @@ export default {
     "syncswap-v3": {
         id: "5982"
     },
-    "oxfun": {
-        id: "6699" // chainId
-    },
+    // "oxfun": {  // it is a cex and fees cant be verified on chain
+    //     id: "6699" // chainId  
+    // },
     "verus": {
         id: "5601"
     },
@@ -3247,5 +3247,35 @@ export default {
     },
     "meth-protocol": {
         id: "3882"
+    },
+    "believe": {
+        id: "6159"
+    },
+    "holdstation-agg": {
+        id: "6178"
+    },
+    "thena-integral": {
+        id: "6179"
+    },
+    "fastlane": {
+        id: "6182"
+    },
+    "bungee-bridge": {
+        id: "6188"
+    },
+    "hadouken-amm": {
+        id: "2748"
+    },
+    "ivx": {
+        id: "6177"
+    },
+    "axial": {
+        id: "845"
+    },
+    "mobius-money": {
+        id: "588"
+    },
+    "nerve": {
+        id: "301"
     },
 } as AdaptorsConfig

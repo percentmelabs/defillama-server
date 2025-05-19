@@ -6843,7 +6843,7 @@ const parentProtocols: IParentProtocol[] = [
     name: "Jito",
     url: "https://jito.network",
     description: "A smart contract vault managed by a regulated entity to offer 24/7 and direct access to U.S. Treasury Bills",
-    logo: `${baseIconsUrl}/jito.jpg`,
+    logo: `${baseIconsUrl}/jito.png`,
     gecko_id: "jito-governance-token",
     cmcId: null,
     chains: [],
@@ -7118,6 +7118,29 @@ const parentProtocols: IParentProtocol[] = [
     cmcId: null,
     chains: [],
     twitter: "kanalabs",
+  },
+  {
+    id: "parent#accumulated-finance",
+    name: "Accumulated Finance",
+    url: "https://accumulated.finance",
+    description: "Omnichain liquid staking, LST lending, leverage staking. AEVM (Accumulated EVM) app-chain",
+    logo: `${baseIconsUrl}/accumulated-finance.png`,
+    gecko_id: null, // ACFI Preview Only
+    cmcId: null,
+    chains: [],
+    twitter: "AccumulatedFi",
+    github: ["AccumulatedFinance"],
+  },
+  {
+    id: "parent#bungee",
+    name: "Bungee",
+    url: "https://new.bungee.exchange/",
+    description: "Bungee is a liquidity marketplace built on SOCKET Protocol that lets you trade any token on any chain",
+    logo: `${baseIconsUrl}/bungee.jpg`,
+    gecko_id: null, 
+    cmcId: null,
+    chains: [],
+    twitter: "BungeeExchange",
   }
 ];
 

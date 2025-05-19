@@ -330,4 +330,10 @@ export default {
   "kame-aggregator": {
     id: "6064"
   },
+  "holdstation-agg": {
+    id: "6178"
+  },
+  "bungee-dex": {
+    id: "6187"
+  },
 } as AdaptorsConfig;

@@ -4205,7 +4205,7 @@ export const chainCoingeckoIds = {
     twitter: "EchelonMarket",
     url: "https://echelon.market/",
   }, 
-    "Superseed": {
+  "Superseed": {
     geckoId: "superseed",
     symbol: "SUPR",
     cmcId: "36436",
@@ -4217,8 +4217,18 @@ export const chainCoingeckoIds = {
     },
     chainId: 5330,
     github: ['superseed-xyz'],
-    twitter: "SuperseedXYZ",
+    twitter: "Xphere_official",
     url: "https://www.superseed.xyz/"
+  },
+  "Xphere": {
+    geckoId: "xphere",
+    symbol: "XP",
+    cmcId: "36056",
+    categories: ["EVM"],
+    chainId: 20250217,
+    github: ['xpherechain'],
+    twitter: "SuperseedXYZ",
+    url: "https://x-phere.com/"
   },
 } as unknown as ChainCoinGekcoIds
 
@@ -4395,7 +4405,7 @@ const chainLabelMap = {
   "sty": "Story",
   "formnetwork": "Form Network",
   "hyper_evm": "HyperEVM",
-  "hyperliquid": "Hyperliquid",
+  "hyperliquid": "Hyperliquid L1",
   "winr": "WINR",
   "mtt_network": "MTT Network",
   "hsk": "HashKey Chain",
@@ -4409,7 +4419,8 @@ const chainLabelMap = {
   "gravity": "Gravity",
   "ogpu": "OpenGPU",
   "echelon_initia": "Echelon Chain",
-  "sseed": "Superseed"
+  "sseed": "Superseed",
+  "xp": "Xphere",
 } as { [key: string]: string }
 
 // When we decide to change the display name of a chain, we add the mapping for the new name here
@@ -4449,7 +4460,6 @@ const newChainLabelMap = {
   "sxr": "SX Rollup",
   "new": "AB",
   "formnetwork": "Form Network",
-  "hyperliquid": "Hyperliquid L1",
   "plume": "Plume (Deprecated)",
   "lightlink_phoenix": "LightLink",
   "move": "Movement", 

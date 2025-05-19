@@ -13,9 +13,11 @@ export interface Protocol {
   gecko_id: string | null;
   cmcId: string | null;
   category?: string;
+  tags?: string[];
   chains: Array<string>;
   oracles?: Array<string>;
   forkedFrom?: Array<string>;
+  forkedFromIds?: Array<string>;
   module: string;
   twitter?: string | null;
   language?: string;
@@ -75,6 +77,7 @@ export interface IParentProtocol {
   twitter: string | null;
   oracles?: Array<string>;
   forkedFrom?: Array<string>;
+  forkedFromIds?: Array<string>;
   governanceID?: Array<string>;
   github?: Array<string>;
   treasury?: string | null;

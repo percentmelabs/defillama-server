@@ -79,13 +79,16 @@ export default {
     "olab": {
         id: "5648"
     },
-    "paradex": {
-        id: "3648"
-    },
+    // "paradex": {  // delisted because it is acting more like a perp
+    //     id: "3648"
+    // },
     "premia-v2": {
         id: "381"
     },
     "premia-v3": {
         id: "3497"
-    }
+    },
+    "ivx": {
+        id: "6177"
+    },
 } as AdaptorsConfig
